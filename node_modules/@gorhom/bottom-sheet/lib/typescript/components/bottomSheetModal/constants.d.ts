@@ -1,0 +1,2 @@
+declare const DEFAULT_DISMISS_ON_PAN_DOWN = true;
+export { DEFAULT_DISMISS_ON_PAN_DOWN };

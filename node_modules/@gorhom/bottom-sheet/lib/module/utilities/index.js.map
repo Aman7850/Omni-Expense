@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":["normalizeSnapPoints"],"mappings":"AAAA,SAASA,mBAAT,QAAoC,uBAApC","sourcesContent":["export { normalizeSnapPoints } from './normalizeSnapPoints';\n"]}

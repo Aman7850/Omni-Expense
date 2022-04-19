@@ -1,0 +1,36 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.NORMAL_DECELERATION_RATE = exports.DEFAULT_ENABLE_HANDLE_PANNING_GESTURE = exports.DEFAULT_ENABLE_CONTENT_PANNING_GESTURE = exports.DEFAULT_HANDLE_HEIGHT = exports.DEFAULT_ANIMATE_ON_MOUNT = exports.DEFAULT_ANIMATION_DURATION = exports.DEFAULT_ANIMATION_EASING = void 0;
+
+var _reactNative = require("react-native");
+
+const {
+  Easing: EasingV1,
+  EasingNode: EasingV2
+} = require('react-native-reanimated');
+
+const Easing = EasingV2 || EasingV1; // defaults
+
+const DEFAULT_ANIMATION_EASING = Easing.out(Easing.exp);
+exports.DEFAULT_ANIMATION_EASING = DEFAULT_ANIMATION_EASING;
+const DEFAULT_ANIMATION_DURATION = 500;
+exports.DEFAULT_ANIMATION_DURATION = DEFAULT_ANIMATION_DURATION;
+const DEFAULT_ANIMATE_ON_MOUNT = false;
+exports.DEFAULT_ANIMATE_ON_MOUNT = DEFAULT_ANIMATE_ON_MOUNT;
+const DEFAULT_HANDLE_HEIGHT = 24;
+exports.DEFAULT_HANDLE_HEIGHT = DEFAULT_HANDLE_HEIGHT;
+const DEFAULT_ENABLE_CONTENT_PANNING_GESTURE = true;
+exports.DEFAULT_ENABLE_CONTENT_PANNING_GESTURE = DEFAULT_ENABLE_CONTENT_PANNING_GESTURE;
+const DEFAULT_ENABLE_HANDLE_PANNING_GESTURE = true;
+exports.DEFAULT_ENABLE_HANDLE_PANNING_GESTURE = DEFAULT_ENABLE_HANDLE_PANNING_GESTURE;
+
+const NORMAL_DECELERATION_RATE = _reactNative.Platform.select({
+  ios: 0.998,
+  android: 0.985
+});
+
+exports.NORMAL_DECELERATION_RATE = NORMAL_DECELERATION_RATE;
+//# sourceMappingURL=constants.js.map

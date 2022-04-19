@@ -1,0 +1,1 @@
+{"version":3,"sources":["useBottomSheet.ts"],"names":["useBottomSheet","BottomSheetContext"],"mappings":";;;;;;;AAAA;;AACA;;AAEO,MAAMA,cAAc,GAAG,MAAM,uBAAWC,4BAAX,CAA7B","sourcesContent":["import { useContext } from 'react';\nimport { BottomSheetContext } from '../contexts/external';\n\nexport const useBottomSheet = () => useContext(BottomSheetContext);\n"]}

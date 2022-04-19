@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.expensetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:5:5-64
+12-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\debug\AndroidManifest.xml:7:5-80
+13-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\debug\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:4:22-64
+15
+16    <uses-feature
+16-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:6:5-85
+17        android:name="android.hardware.camera"
+17-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:6:19-57
+18        android:required="false" />
+18-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:6:58-82
+19    <uses-feature
+19-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:7:5-91
+20        android:name="android.hardware.camera.front"
+20-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:7:19-63
+21        android:required="false" />
+21-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:7:64-88
+22
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Aman\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Aman\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:react-native-community_netinfo] D:\Taat-Expense App\TAAT-Expense-App\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+24-->[:react-native-community_netinfo] D:\Taat-Expense App\TAAT-Expense-App\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
+25
+26    <queries>
+26-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-14:15
+27        <intent>
+27-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-13:18
+28            <action android:name="android.media.action.IMAGE_CAPTURE" />
+28-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-73
+28-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:21-70
+29        </intent>
+30    </queries>
+31
+32    <application
+32-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:9:5-28:19
+33        android:name="com.expensetracker.MainApplication"
+33-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:11:7-38
+34        android:allowBackup="false"
+34-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:15:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.3.2] C:\Users\Aman\.gradle\caches\transforms-2\files-2.1\f03ec885b8fabdebb4f0d3bbade5009e\core-1.3.2\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:13:7-41
+38        android:label="@string/app_name"
+38-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:12:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:14:7-52
+40        android:theme="@style/AppTheme"
+40-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:16:7-38
+41        android:usesCleartextTraffic="true" >
+41-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:10:7-42
+42        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+42-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\debug\AndroidManifest.xml:13:9-86
+42-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\debug\AndroidManifest.xml:13:19-83
+43        <activity
+43-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:17:7-27:18
+44            android:name="com.expensetracker.MainActivity"
+44-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:18:9-37
+45            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+45-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:20:9-86
+46            android:label="@string/app_name"
+46-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:19:9-41
+47            android:launchMode="singleTask"
+47-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:21:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:22:9-51
+49            <intent-filter>
+49-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:23:9-26:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:24:13-65
+50-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:24:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:25:13-73
+52-->D:\Taat-Expense App\TAAT-Expense-App\android\app\src\main\AndroidManifest.xml:25:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-27:20
+57            android:name="androidx.core.content.FileProvider"
+57-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-62
+58            android:authorities="com.expensetracker.provider"
+58-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-60
+59            android:exported="false"
+59-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-37
+60            android:grantUriPermissions="true" >
+60-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-47
+61            <meta-data
+61-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+63                android:resource="@xml/provider_paths" />
+63-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+64        </provider>
+65
+66        <activity
+66-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:72
+67            android:name="com.yalantis.ucrop.UCropActivity"
+67-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-60
+68            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+68-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-69
+69
+70        <provider
+70-->[:react-native-image-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+71            android:name="com.imagepicker.ImagePickerProvider"
+71-->[:react-native-image-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+72            android:authorities="com.expensetracker.imagepickerprovider"
+72-->[:react-native-image-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-71
+73            android:exported="false"
+73-->[:react-native-image-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+74            android:grantUriPermissions="true" >
+74-->[:react-native-image-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+75            <meta-data
+75-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+77                android:resource="@xml/imagepicker_provider_paths" />
+77-->[:react-native-image-crop-picker] D:\Taat-Expense App\TAAT-Expense-App\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+78        </provider>
+79    </application>
+80
+81</manifest>

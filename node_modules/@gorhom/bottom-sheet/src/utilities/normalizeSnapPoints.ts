@@ -1,0 +1,15 @@
+import { validateSnapPoint } from './validateSnapPoint';
+
+/**
+ * Converts snap points with percentage to fixed numbers.
+ */
+export const normalizeSnapPoints = (
+  snapPoints: ReadonlyArray<number | string>,
+  containerHeight: number
+) =>
+  snapPoints.map(snapPoint => {
+    validateSnapPoint(snapPoint);
+    return typeof snapPoint === 'number'
+      ? snapPoint
+      : (Number(snapPoint.split('%')[0]) * containerHeight) / 100;
+  });
